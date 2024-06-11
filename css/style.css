@@ -1,6 +1,4 @@
-nav {
-    height: 650px;
-    }
+
     
     button {
         position: relative;
@@ -249,7 +247,6 @@ nav {
         min-width: 14em;
         padding: .5em;
         text-align: center;
-        /* transform: rotate(360deg); */
         transition: all .5s;
         text-transform: uppercase;
         color: #ff568e;
@@ -259,4 +256,5 @@ nav {
       .card1 p:hover span {
         transform: rotate(0);
       }
-    
+
+      

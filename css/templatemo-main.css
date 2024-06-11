@@ -172,8 +172,10 @@ nav {
   	width: 20%;
   	font-weight: 300;
   	font-size: 1rem;
-}
+	height: 650px;
 
+}
+    
 nav em {
 	font-style: normal;
 	margin-left: 5px;
@@ -250,12 +252,12 @@ nav a::before {
 }
 nav a:hover {
 	text-decoration: none;
-  -webkit-animation: fillColour 0.7s forwards ease-in-out;
-          animation: fillColour 0.7s forwards ease-in-out;
+  -webkit-animation: fillColour 0.5s forwards ease-in-out;
+          animation: fillColour 0.5s forwards ease-in-out;
 }
 nav a:hover::before {
-  -webkit-animation: fill 0.7s forwards ease-in-out;
-          animation: fill 0.7s forwards ease-in-out;
+  -webkit-animation: fill 0.5s forwards ease-in-out;
+          animation: fill 0.5s forwards ease-in-out;
   opacity: 1;
 }
 
@@ -318,7 +320,7 @@ nav a:hover::before {
 
 
 .main-btn a:hover {
-	background-color: #fff;
+	background-color: #ffffff30;
 	color: #232323!important;
 }
 
@@ -402,7 +404,7 @@ nav a:hover::before {
 }
 
 .first-content .fb-btn a:hover {
-	color: #fff;
+	color: #ffffff30;
 	background-color: transparent;
 }
 
@@ -458,7 +460,7 @@ nav a:hover::before {
 
 .second-content .main-btn a {
 	display: inline-block;
-	border: 2px solid #fff;
+	border: 2px solid #ffffff30;
 	padding: 8px 15px;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -525,7 +527,7 @@ nav a:hover::before {
 
 .third-content .main-btn a {
 	display: inline-block;
-	border: 2px solid #fff;
+	border: 2px solid #ffffff30;
 	padding: 8px 15px;
 	font-size: 13px;
 	text-transform: uppercase;
